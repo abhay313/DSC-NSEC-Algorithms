@@ -20,6 +20,7 @@ int main()
 		int arr[n], count = 0, k = 0, x;
 		
 		// filling array with non zero numbers only and counting zeros.	
+
 		for(int i = 0; i < n; i++){
 			cin >> x;
 			if(x != 0){
@@ -28,7 +29,7 @@ int main()
 			}else
 				count++;
 		}
-		// pushing count zeros	
+		// pushing count number of zeros	
 		for(int i = 0; i < count; i++){
 			arr[k] = 0;
 			k++;
